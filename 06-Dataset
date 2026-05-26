@@ -1,1 +1,18 @@
+# Dataset Information
 
+This dataset contains employee-related HR metrics used to analyze employee attrition patterns.
+
+## Key Fields
+- Attrition
+- Department
+- Gender
+- Age
+- Monthly Income
+- Job Satisfaction
+- Work Life Balance
+- Years at Company
+- Overtime
+- Job Role
+
+## Purpose
+The dataset supports HR analytics, attrition analysis, and workforce retention strategy development.
