@@ -21,6 +21,7 @@ The project simulates a real-world business problem where an organization experi
 - Microsoft Excel
 - GitHub
 - Markdown Documentation
+- PlantUml
 
 ---
 
