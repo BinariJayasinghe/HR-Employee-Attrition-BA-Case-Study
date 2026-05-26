@@ -1,0 +1,49 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor CEO
+actor "HR Director" as HR
+actor "Finance Manager" as Finance
+actor "Department Manager" as Manager
+actor "HR Analyst" as Analyst
+
+rectangle "HR Employee Attrition Analysis Dashboard" {
+  usecase "View Overall\nAttrition KPIs" as UC1
+  usecase "Analyze Department-wise\nAttrition" as UC2
+  usecase "Filter Employee\nDemographics" as UC3
+  usecase "Analyze Salary\nImpact" as UC4
+  usecase "Review Overtime\nImpact" as UC5
+  usecase "Analyze Job Satisfaction\n& Work-Life Balance" as UC6
+  usecase "Generate Business\nInsights" as UC7
+  usecase "Recommend Retention\nStrategies" as UC8
+}
+
+CEO --> UC1
+CEO --> UC7
+CEO --> UC8
+
+HR --> UC1
+HR --> UC2
+HR --> UC3
+HR --> UC5
+HR --> UC6
+HR --> UC8
+
+Finance --> UC4
+Finance --> UC7
+
+Manager --> UC2
+Manager --> UC5
+Manager --> UC6
+
+Analyst --> UC1
+Analyst --> UC2
+Analyst --> UC3
+Analyst --> UC4
+Analyst --> UC5
+Analyst --> UC6
+Analyst --> UC7
+
+@enduml
