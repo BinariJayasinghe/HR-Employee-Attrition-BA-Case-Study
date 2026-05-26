@@ -1,0 +1,43 @@
+@startuml
+skinparam activity {
+  BackgroundColor #F8F9FA
+  BorderColor #2C3E50
+  FontColor #2C3E50
+}
+
+title Employee Attrition Analysis Process Flow
+
+start
+
+:Collect HR employee dataset;
+:Clean and prepare data;
+:Identify key business questions;
+:Define KPIs and metrics;
+
+if (Is employee attrition high?) then (Yes)
+  :Analyze attrition by department;
+  :Analyze overtime impact;
+  :Analyze salary influence;
+  :Analyze job satisfaction and work-life balance;
+  :Identify high-risk employee groups;
+else (No)
+  :Continue workforce monitoring;
+endif
+
+:Build Power BI dashboard;
+:Generate insights;
+:Prepare business recommendations;
+
+if (Retention action needed?) then (Yes)
+  :Recommend HR intervention plans;
+  :Improve onboarding and engagement;
+  :Review overtime and compensation policies;
+else (No)
+  :Maintain current HR strategy;
+endif
+
+:Share dashboard with stakeholders;
+:Support data-driven HR decisions;
+
+stop
+@enduml
