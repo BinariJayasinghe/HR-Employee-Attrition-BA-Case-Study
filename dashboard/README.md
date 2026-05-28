@@ -1,1 +1,42 @@
+# HR Analytics Dashboard 📊
+
+## Overview
+
+This project is an interactive HR Analytics Dashboard developed using Power BI. The dashboard provides insights into employee attrition, salary distribution, workforce demographics, and job satisfaction across departments.
+
+## Features
+
+* Employee Attrition Analysis
+* Department-wise Salary Analysis
+* Gender Distribution Insights
+* Age Group Analysis
+* Job Satisfaction Metrics
+* Interactive Slicers & Filters
+
+## Tools & Technologies
+
+* Power BI
+* DAX
+* Excel
+
+## Key Insights
+
+* Highest attrition observed in Sales department
+* Employees aged 26–35 form the largest workforce
+* Male employee attrition is slightly higher
+* Research & Development shows higher job satisfaction
+
+## Project Files
+
+* HR_Analytics_Dashboard.pbix
+* HR Dataset.xlsx
+* Dashboard Screenshot
+
+## Learning Outcomes
+
+* Data Cleaning & Transformation
+* KPI Development using DAX
+* Interactive Dashboard Design
+* HR Data Analysis & Visualization
+* Business Insight Generation
 
